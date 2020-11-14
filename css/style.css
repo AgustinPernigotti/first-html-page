@@ -1,0 +1,178 @@
+/* Main */
+
+body.main{
+    display: block;
+    align-content: center; /* Ask about how to move everithing to the center */
+}
+
+/* Header Styling */
+header.headerContainer{
+    background-color:white solid;
+    /* position: fixed; */
+    display: block;
+    width: auto;
+}
+
+header>a>img{
+    height: 50px;
+    width: auto;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+nav ul{
+    /* position: fixed; */
+    display: block;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+/* Section Styling */
+.sectionContainer{
+    display:block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+section h1.box_1{
+    font-size: large;
+    color: rgb(5, 87, 5);
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+/* Article Styling */
+article .articleContainer{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+article>div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+article>div>h2{
+    font-family: sans-serif;
+    font: 1px;
+}
+
+#dataJournal{
+    display: inline;
+    display: block;
+}
+
+#dataJournal>div{
+    float: left;
+    overflow: hidden;
+}
+
+#dataJournalist{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-decoration: solid underline rgb(70, 125, 206);
+    padding-right: 4px;
+}
+
+#dataJournalist:visited{
+    color: #000000;
+}
+
+#dataDate{
+    font-family: sans-serif;
+    margin-top: 1px;
+}
+
+#dataDate>span{
+    font-weight: bold;
+}
+
+#socialMedia{
+    display: inline;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.video{
+    height: 320;
+    width: 210;
+}
+
+#videoDescription{
+    font-family: sans-serif;
+}
+
+#videoDescription>div:first-of-type{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#videoDescription>div>span{
+    font-size: 12px;
+}
+
+#videoDescription>div>span:last-child{
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+#videoDescription>div:last-of-type{
+    background-color: rgb(63, 157, 245);
+    height: 1px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+div p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+div p a{
+    text-decoration: solid underline rgb(70, 125, 206);
+    color: #000000;
+}
+
+div p a:visited{
+    text-decoration: solid underline rgb(70, 125, 206);
+}
