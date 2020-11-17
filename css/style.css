@@ -179,6 +179,31 @@ div p a:visited{
 
 /* Aside styling */
 
-#container-aside{
-    display: flex;
+.container-aside{
+    border: 1px solid #000000;
+    margin: auto;
+    position: relative;
 }
+
+.container-aside div:first-child{
+    background-color: #000000;
+    color: white;
+    margin: 0px;
+}
+
+.container-aside ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+.container-aside a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: #000000;
+}
+
+/* .container-aside img{
+    height: 10px;
+    width: 10px;
+} */
