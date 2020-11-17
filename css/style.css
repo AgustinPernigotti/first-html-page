@@ -185,11 +185,27 @@ div p a:visited{
     position: relative;
 }
 
-.container-aside div:first-child{
+.container-aside .box1{
     background-color: #000000;
     color: white;
     margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #7e7a7a;
 }
+
+.container-aside .box2{
+    background-color: #000000;
+    color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
 
 .container-aside ul{
     list-style-type: none;
