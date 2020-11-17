@@ -176,3 +176,9 @@ div p a{
 div p a:visited{
     text-decoration: solid underline rgb(70, 125, 206);
 }
+
+/* Aside styling */
+
+#container-aside{
+    display: flex;
+}
