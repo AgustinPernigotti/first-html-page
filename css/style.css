@@ -181,7 +181,8 @@ div p a:visited{
 
 .container-aside{
     border: 1px solid #000000;
-    margin: auto;
+    margin-right: 30%;
+    margin-left: 30%;
     position: relative;
 }
 
